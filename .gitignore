@@ -1,0 +1,32 @@
+# Virtual environments
+**/venv/
+**/fresh_install_sandbox/
+**/env/
+**/ENV/
+
+# Large model checkpoints (>100MB cannot be pushed to GitHub)
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.pkl
+
+# Large TensorBoard event files
+**/events.out.tfevents*
+
+# Raw training replay buffer episodes (large binary transitions)
+**/train_eps/
+
+# Python cache & artifacts
+**/__pycache__/
+**/*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-29 01:58:36",
+  "steps": 50,
+  "seed": 0,
+  "wall_clock_seconds": 8.1,
+  "peak_cpu_mem_mb": 0.0,
+  "peak_gpu_mem_mb": 1058,
+  "eval_checkpoints": [],
+  "final_return": null,
+  "success": false
+}

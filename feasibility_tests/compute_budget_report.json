@@ -1,0 +1,16 @@
+{
+  "wall_clock_seconds_per_run": 11137.3,
+  "hours_per_run": 3.094,
+  "source": "Measured from baseline_results.json (50000 steps)",
+  "configurations": {
+    "baseline": 1,
+    "variants": 3,
+    "ablations": 2,
+    "total_configs": 6
+  },
+  "seeds_per_config": 3,
+  "total_runs": 18,
+  "required_gpu_hours": 55.69,
+  "available_gpu_hours": 50.0,
+  "fits": false
+}

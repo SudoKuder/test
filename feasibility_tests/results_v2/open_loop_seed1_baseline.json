@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETED",
+  "logdir": "C:\\codes\\reserch-a-thon test\\feasibility_tests\\logdir\\walker_walk_seed1",
+  "device": "cuda",
+  "capacity_verified": true,
+  "warmup_steps": 5,
+  "metrics": {
+    "horizon_0": {
+      "steps": 0,
+      "type": "reconstruction_posterior",
+      "model_state_mse": 1.831077,
+      "model_state_nmse": 0.072235,
+      "model_reward_mse": 0.045493,
+      "model_reward_nmse": 1.885341,
+      "persistence_state_mse": 0.0,
+      "persistence_reward_mse": 0.0,
+      "persistence_ratio": 1.0
+    },
+    "horizon_5": {
+      "steps": 5,
+      "model_state_mse": 2.943114,
+      "model_state_nmse": 0.127717,
+      "model_reward_mse": 0.068752,
+      "model_reward_nmse": 1.771051,
+      "persistence_state_mse": 37.968311,
+      "persistence_reward_mse": 0.026714,
+      "persistence_ratio": 0.0775
+    },
+    "horizon_15": {
+      "steps": 15,
+      "model_state_mse": 9.2009,
+      "model_state_nmse": 0.424717,
+      "model_reward_mse": 0.166954,
+      "model_reward_nmse": 1.793079,
+      "persistence_state_mse": 45.597295,
+      "persistence_reward_mse": 0.145449,
+      "persistence_ratio": 0.2018
+    },
+    "horizon_50": {
+      "steps": 50,
+      "model_state_mse": 5.323704,
+      "model_state_nmse": 0.198352,
+      "model_reward_mse": 0.079038,
+      "model_reward_nmse": 2.849785,
+      "persistence_state_mse": 46.784369,
+      "persistence_reward_mse": 0.031645,
+      "persistence_ratio": 0.1138
+    }
+  }
+}

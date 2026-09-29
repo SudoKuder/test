@@ -1,0 +1,39 @@
+{
+  "benchmark_hardware": "RTX 4060 Laptop GPU",
+  "speed_factor_applied": 1.0,
+  "measured_seeds_count": 3,
+  "per_seed_measured_hours": [
+    3.09,
+    3.04,
+    2.49
+  ],
+  "per_run_duration_hours": {
+    "median": 3.04,
+    "min": 2.49,
+    "max": 3.09,
+    "unscaled_rtx4060_median_hours": 3.04
+  },
+  "peak_gpu_mem_mb": 5046.0,
+  "weekly_quota_hours": 30.0,
+  "core_plan_6_runs": {
+    "configurations": "Baseline (3 seeds) + Continuous Latents (3 seeds)",
+    "total_runs": 6,
+    "estimated_gpu_hours": 18.21,
+    "gpu_hours_range": [
+      14.96,
+      18.56
+    ],
+    "fits_weekly_quota": true
+  },
+  "full_plan_18_runs": {
+    "configurations": "1 Baseline + 3 Variants + 2 Ablations (18 runs)",
+    "total_runs": 18,
+    "estimated_gpu_hours": 54.64,
+    "gpu_hours_range": [
+      44.87,
+      55.69
+    ],
+    "fits_weekly_quota": false
+  },
+  "max_50k_runs_within_quota": 9
+}

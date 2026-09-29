@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-09-29T07:45:19.042791",
+  "all_passed": true,
+  "checks": {
+    "step_budget_50k": {
+      "expected": "50,000 / 50k steps",
+      "passed": true,
+      "detail": "Found 50k/50,000 budget"
+    },
+    "action_repeat_2": {
+      "expected": "action repeat 2",
+      "passed": true,
+      "detail": "Found action repeat 2"
+    },
+    "seeds_count_3": {
+      "expected": "3 seeds",
+      "passed": true,
+      "detail": "Found 3 seeds"
+    },
+    "eval_episodes_10": {
+      "expected": "10 evaluation episodes",
+      "passed": true,
+      "detail": "Found 10 evaluation episodes"
+    },
+    "prediction_horizons_5_15_50": {
+      "expected": "horizons 5, 15, and 50",
+      "passed": true,
+      "detail": "H5: True, H15: True, H50: True"
+    },
+    "task_walk_required": {
+      "expected": "walker_walk required",
+      "passed": true,
+      "detail": "walker_walk specified"
+    },
+    "task_run_optional": {
+      "expected": "walker_run optional",
+      "passed": true,
+      "detail": "walker_run marked optional"
+    },
+    "timeline_15_days": {
+      "expected": "15 days timeline",
+      "passed": true,
+      "detail": "Found 15 days timeline"
+    }
+  },
+  "occurrences": [
+    {
+      "line": 3,
+      "text": "- Budget: 50,000 environment steps, action repeat 2.",
+      "numbers": [
+        "50,000",
+        "2"
+      ]
+    },
+    {
+      "line": 5,
+      "text": "- Planned experiments: baseline, 2 to 3 world-model variants (continuous Gaussian vs discrete categorical latents; RSSM vs MLP ensemble dynamics), at most 2 ablations, 3 seeds per configuration, 10 evaluation episodes per seed, IQM and mean return.",
+      "numbers": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "10"
+      ]
+    },
+    {
+      "line": 6,
+      "text": "- Prediction fidelity metric: open-loop latent/state error and reward error at horizons 5, 15 and 50 steps.",
+      "numbers": [
+        "5",
+        "15",
+        "50"
+      ]
+    },
+    {
+      "line": 7,
+      "text": "- Timeline & Audience: Participants have basic ML knowledge only, 15 days, and Colab/Kaggle-class compute.",
+      "numbers": [
+        "15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Verified Step Counter Semantics:
+--------------------------------
+In this codebase, 50,000 steps = 25,000 agent decisions = 50,000 simulator frames.
+
+Code Evidence:
+1. configs.yaml (line 98): dmc_proprio sets action_repeat = 2
+2. dreamer.py (line 213): config.steps //= config.action_repeat (decisions = 25,000)
+3. dreamer.py (line 83): logger.step = self._config.action_repeat * self._step (frames = 50,000)
+4. dreamer.py (line 302): while agent._step < config.steps + config.eval_every (stops at 25,000 decisions)

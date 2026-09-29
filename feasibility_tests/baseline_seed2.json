@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-29 11:39:33",
+  "steps": 50000,
+  "seed": 2,
+  "wall_clock_seconds": 8974.2,
+  "peak_cpu_mem_mb": 0.0,
+  "peak_gpu_mem_mb": 4731,
+  "eval_checkpoints": [
+    {
+      "step": 5000,
+      "eval_return": 40.840907669067384
+    },
+    {
+      "step": 15000,
+      "eval_return": 173.04653778076172
+    },
+    {
+      "step": 25000,
+      "eval_return": 254.79481201171876
+    },
+    {
+      "step": 35000,
+      "eval_return": 316.471142578125
+    },
+    {
+      "step": 45000,
+      "eval_return": 415.9027496337891
+    },
+    {
+      "step": 55000,
+      "eval_return": 445.31646423339845
+    }
+  ],
+  "final_return": 445.31646423339845,
+  "success": true
+}

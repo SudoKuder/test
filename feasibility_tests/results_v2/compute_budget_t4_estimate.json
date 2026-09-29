@@ -1,0 +1,39 @@
+{
+  "benchmark_hardware": "Nvidia T4 (Colab/Kaggle Estimated)",
+  "speed_factor_applied": 1.35,
+  "measured_seeds_count": 3,
+  "per_seed_measured_hours": [
+    3.09,
+    3.04,
+    2.49
+  ],
+  "per_run_duration_hours": {
+    "median": 4.1,
+    "min": 3.37,
+    "max": 4.18,
+    "unscaled_rtx4060_median_hours": 3.04
+  },
+  "peak_gpu_mem_mb": 5046.0,
+  "weekly_quota_hours": 30.0,
+  "core_plan_6_runs": {
+    "configurations": "Baseline (3 seeds) + Continuous Latents (3 seeds)",
+    "total_runs": 6,
+    "estimated_gpu_hours": 24.59,
+    "gpu_hours_range": [
+      20.19,
+      25.06
+    ],
+    "fits_weekly_quota": true
+  },
+  "full_plan_18_runs": {
+    "configurations": "1 Baseline + 3 Variants + 2 Ablations (18 runs)",
+    "total_runs": 18,
+    "estimated_gpu_hours": 73.76,
+    "gpu_hours_range": [
+      60.58,
+      75.18
+    ],
+    "fits_weekly_quota": false
+  },
+  "max_50k_runs_within_quota": 7
+}

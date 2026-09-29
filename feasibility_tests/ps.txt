@@ -1,0 +1,7 @@
+Problem Statement:
+- Task: train a model-based RL agent on DeepMind Control Suite walker_walk (required) with proprioceptive inputs. walker_run is optional and should not be tested unless a flag is set.
+- Budget: 50,000 environment steps, action repeat 2.
+- Participants use an open-source MBRL codebase and modify only the world model.
+- Planned experiments: baseline, 2 to 3 world-model variants (continuous Gaussian vs discrete categorical latents; RSSM vs MLP ensemble dynamics), at most 2 ablations, 3 seeds per configuration, 10 evaluation episodes per seed, IQM and mean return.
+- Prediction fidelity metric: open-loop latent/state error and reward error at horizons 5, 15 and 50 steps.
+- Timeline & Audience: Participants have basic ML knowledge only, 15 days, and Colab/Kaggle-class compute.

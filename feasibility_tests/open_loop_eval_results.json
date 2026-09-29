@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "device": "cuda",
+  "capacity_verified": true,
+  "warmup_steps": 5,
+  "metrics": {
+    "horizon_5": {
+      "steps": 5,
+      "state_mse": 7.535487,
+      "reward_mse": 0.025064
+    },
+    "horizon_15": {
+      "steps": 15,
+      "state_mse": 10.14306,
+      "reward_mse": 0.217871
+    },
+    "horizon_50": {
+      "steps": 50,
+      "state_mse": 13.960755,
+      "reward_mse": 1.208971
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "seed": 0,
+  "steps_requested": 50000,
+  "wall_clock_seconds": 11137.3,
+  "peak_gpu_mem_mb": 5284,
+  "all_eval_checkpoints": [
+    {
+      "step": 5000,
+      "eval_return": 28.529715156555177
+    },
+    {
+      "step": 16000,
+      "eval_return": 153.23555450439454
+    },
+    {
+      "step": 26000,
+      "eval_return": 225.95482177734374
+    },
+    {
+      "step": 36000,
+      "eval_return": 302.1976776123047
+    },
+    {
+      "step": 46000,
+      "eval_return": 491.10174560546875
+    },
+    {
+      "step": 56000,
+      "eval_return": 600.85146484375
+    }
+  ],
+  "last_checkpoint_le_50k": {
+    "step": 46000,
+    "eval_return": 491.10174560546875
+  },
+  "final_checkpoint_at_step": 56000,
+  "final_checkpoint_return": 600.85146484375,
+  "notes": "Overlapped execution with test_step50.json during first half of run."
+}

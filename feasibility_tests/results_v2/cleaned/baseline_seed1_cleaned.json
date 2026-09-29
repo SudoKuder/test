@@ -1,0 +1,39 @@
+{
+  "seed": 1,
+  "steps_requested": 50000,
+  "wall_clock_seconds": 10927.8,
+  "peak_gpu_mem_mb": 5123,
+  "all_eval_checkpoints": [
+    {
+      "step": 5000,
+      "eval_return": 29.66662769317627
+    },
+    {
+      "step": 15000,
+      "eval_return": 205.93120422363282
+    },
+    {
+      "step": 25000,
+      "eval_return": 204.00821228027343
+    },
+    {
+      "step": 35000,
+      "eval_return": 214.69837646484376
+    },
+    {
+      "step": 45000,
+      "eval_return": 222.17957458496093
+    },
+    {
+      "step": 55000,
+      "eval_return": 225.73619995117187
+    }
+  ],
+  "last_checkpoint_le_50k": {
+    "step": 45000,
+    "eval_return": 222.17957458496093
+  },
+  "final_checkpoint_at_step": 55000,
+  "final_checkpoint_return": 225.73619995117187,
+  "notes": "Sequential run. Budget overshoot to 55,000 frames."
+}

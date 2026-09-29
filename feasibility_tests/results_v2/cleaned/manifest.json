@@ -1,0 +1,13 @@
+{
+  "manifest_date": "2026-09-29",
+  "cleaned_files": {
+    "baseline_seed0_cleaned.json": "Deduplicated checkpoints from baseline_results.json; identifies <=50k vs final 56k return.",
+    "baseline_seed1_cleaned.json": "Cleaned summary of baseline_seed1.json; sequential run.",
+    "baseline_seed2_cleaned.json": "Cleaned summary of baseline_seed2.json; sequential run.",
+    "multiseed_results_cleaned.json": "Proper hierarchical seed-level stats; includes both <=50k checkpoint analysis and end-of-run eval analysis."
+  },
+  "excluded_files": {
+    "baseline_seed0.json": "Unused crash artifact (1.5s failure before OSMesa patch).",
+    "test_step50.json": "Mislabeled steps=50 artifact; partial run up to step 36k."
+  }
+}

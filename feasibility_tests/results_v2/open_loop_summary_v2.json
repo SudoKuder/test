@@ -1,0 +1,174 @@
+{
+  "evaluation_type": "baseline_discrete_latents_3_seeds",
+  "warmup_steps": 5,
+  "capacity_verified": true,
+  "summary_by_horizon": {
+    "horizon_0": {
+      "steps": 0,
+      "mean_model_state_mse": 1.934,
+      "std_model_state_mse": 0.2474,
+      "mean_persist_state_mse": 0.0,
+      "mean_persistence_ratio": 1.0,
+      "mean_reward_mse": 0.4682,
+      "std_reward_mse": 0.4833
+    },
+    "horizon_5": {
+      "steps": 5,
+      "mean_model_state_mse": 5.5957,
+      "std_model_state_mse": 3.7271,
+      "mean_persist_state_mse": 46.1219,
+      "mean_persistence_ratio": 0.1191,
+      "mean_reward_mse": 0.5038,
+      "std_reward_mse": 0.4037
+    },
+    "horizon_15": {
+      "steps": 15,
+      "mean_model_state_mse": 7.8885,
+      "std_model_state_mse": 2.8592,
+      "mean_persist_state_mse": 43.002,
+      "mean_persistence_ratio": 0.1813,
+      "mean_reward_mse": 0.5647,
+      "std_reward_mse": 0.3593
+    },
+    "horizon_50": {
+      "steps": 50,
+      "mean_model_state_mse": 7.4621,
+      "std_model_state_mse": 2.618,
+      "mean_persist_state_mse": 38.7532,
+      "mean_persistence_ratio": 0.2002,
+      "mean_reward_mse": 0.8224,
+      "std_reward_mse": 0.6679
+    }
+  },
+  "per_seed_data": {
+    "0": {
+      "horizon_0": {
+        "steps": 0,
+        "type": "reconstruction_posterior",
+        "model_state_mse": 2.216184,
+        "model_state_nmse": 0.070106,
+        "model_reward_mse": 0.995129,
+        "model_reward_nmse": 1.951289,
+        "persistence_state_mse": 0.0,
+        "persistence_reward_mse": 0.0,
+        "persistence_ratio": 1.0
+      },
+      "horizon_5": {
+        "steps": 5,
+        "model_state_mse": 9.85688,
+        "model_state_nmse": 0.484753,
+        "model_reward_mse": 0.866351,
+        "model_reward_nmse": 2.013075,
+        "persistence_state_mse": 48.584008,
+        "persistence_reward_mse": 0.293536,
+        "persistence_ratio": 0.2029
+      },
+      "horizon_15": {
+        "steps": 15,
+        "model_state_mse": 9.855789,
+        "model_state_nmse": 0.314037,
+        "model_reward_mse": 0.661191,
+        "model_reward_nmse": 1.641344,
+        "persistence_state_mse": 55.314423,
+        "persistence_reward_mse": 0.62447,
+        "persistence_ratio": 0.1782
+      },
+      "horizon_50": {
+        "steps": 50,
+        "model_state_mse": 10.38174,
+        "model_state_nmse": 0.536754,
+        "model_reward_mse": 1.372155,
+        "model_reward_nmse": 2.318904,
+        "persistence_state_mse": 40.432898,
+        "persistence_reward_mse": 0.569305,
+        "persistence_ratio": 0.2568
+      }
+    },
+    "1": {
+      "horizon_0": {
+        "steps": 0,
+        "type": "reconstruction_posterior",
+        "model_state_mse": 1.831077,
+        "model_state_nmse": 0.072235,
+        "model_reward_mse": 0.045493,
+        "model_reward_nmse": 1.885341,
+        "persistence_state_mse": 0.0,
+        "persistence_reward_mse": 0.0,
+        "persistence_ratio": 1.0
+      },
+      "horizon_5": {
+        "steps": 5,
+        "model_state_mse": 2.943114,
+        "model_state_nmse": 0.127717,
+        "model_reward_mse": 0.068752,
+        "model_reward_nmse": 1.771051,
+        "persistence_state_mse": 37.968311,
+        "persistence_reward_mse": 0.026714,
+        "persistence_ratio": 0.0775
+      },
+      "horizon_15": {
+        "steps": 15,
+        "model_state_mse": 9.2009,
+        "model_state_nmse": 0.424717,
+        "model_reward_mse": 0.166954,
+        "model_reward_nmse": 1.793079,
+        "persistence_state_mse": 45.597295,
+        "persistence_reward_mse": 0.145449,
+        "persistence_ratio": 0.2018
+      },
+      "horizon_50": {
+        "steps": 50,
+        "model_state_mse": 5.323704,
+        "model_state_nmse": 0.198352,
+        "model_reward_mse": 0.079038,
+        "model_reward_nmse": 2.849785,
+        "persistence_state_mse": 46.784369,
+        "persistence_reward_mse": 0.031645,
+        "persistence_ratio": 0.1138
+      }
+    },
+    "2": {
+      "horizon_0": {
+        "steps": 0,
+        "type": "reconstruction_posterior",
+        "model_state_mse": 1.754633,
+        "model_state_nmse": 0.086531,
+        "model_reward_mse": 0.364128,
+        "model_reward_nmse": 1.871501,
+        "persistence_state_mse": 0.0,
+        "persistence_reward_mse": 0.0,
+        "persistence_ratio": 1.0
+      },
+      "horizon_5": {
+        "steps": 5,
+        "model_state_mse": 3.986969,
+        "model_state_nmse": 0.132138,
+        "model_reward_mse": 0.576345,
+        "model_reward_nmse": 1.773258,
+        "persistence_state_mse": 51.813351,
+        "persistence_reward_mse": 0.427628,
+        "persistence_ratio": 0.0769
+      },
+      "horizon_15": {
+        "steps": 15,
+        "model_state_mse": 4.60867,
+        "model_state_nmse": 1.023495,
+        "model_reward_mse": 0.86582,
+        "model_reward_nmse": 1.564778,
+        "persistence_state_mse": 28.094281,
+        "persistence_reward_mse": 1.005403,
+        "persistence_ratio": 0.164
+      },
+      "horizon_50": {
+        "steps": 50,
+        "model_state_mse": 6.680807,
+        "model_state_nmse": 0.665213,
+        "model_reward_mse": 1.016012,
+        "model_reward_nmse": 3.264739,
+        "persistence_state_mse": 29.042363,
+        "persistence_reward_mse": 0.490596,
+        "persistence_ratio": 0.23
+      }
+    }
+  }
+}

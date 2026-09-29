@@ -1,0 +1,44 @@
+{
+  "F1_budget": {
+    "target_frames": 50000,
+    "min_logged_frames": 45000,
+    "max_logged_frames": 50000,
+    "action_repeat": 2,
+    "target_decisions": 25000
+  },
+  "F2_baseline": {
+    "required_seeds": 3,
+    "must_be_sequential": true,
+    "no_nans_or_crashes": true
+  },
+  "F3_variant": {
+    "variant_flag": "--dyn_discrete 0",
+    "required_seeds": 3,
+    "eval_return_threshold": 100.0
+  },
+  "F4_compute": {
+    "max_core_plan_gpu_hours": 30.0,
+    "weekly_quota_hours": 30.0,
+    "target_platforms": ["Kaggle T4/P100", "Colab T4"]
+  },
+  "F5_linux_install": {
+    "smoke_test_steps": 1000,
+    "target_os": "Linux"
+  },
+  "F6_open_loop": {
+    "horizons": [0, 5, 15, 50],
+    "warmup_steps": 5,
+    "require_persistence_baseline": true
+  },
+  "F7_power": {
+    "target_power": 0.80,
+    "alpha": 0.05,
+    "sample_sizes": [3, 5]
+  },
+  "F8_traceability": {
+    "required_claims": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10"]
+  },
+  "F9_human_pilot": {
+    "allowed_automatic_pass": false
+  }
+}
